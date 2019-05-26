@@ -10,7 +10,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -55,27 +55,24 @@
         </div>
       </header>
       <div class="friends__plus">
-        <h3 class="friends__title">Plus friend</h3>
-      </div>
-      <div class="friends__friend friend">
-        <div class="friend__column">
-          <div class="friend__content">
-            <span class="friend__name">Plus Friend</span>
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img class="friend__avatar" src="images/avatar-small.png" />
+            <div class="friend__content">
+              <span class="friend__name">Plus Friend</span>
+            </div>
           </div>
         </div>
-        <img class="g-avatar friend__avatar" src="images/avatar-small.png" />
       </div>
-      <ul class="friends_list">
-        <h5 class="friends_title">Friends 14</h5>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend-lg">
           <div class="friend__column">
-            <img
-              class="g-avatar friend__avatar"
-              src="images/avatar-small.png"
-            />
+            <img class="friend__avatar" src="images/avatar-small.png" />
             <div class="friend__content">
               <span class="friend__name">alex.wanjun</span>
-              <span class="friend__status">Printingworks co</span>
+              <span class="friend__status">Printingworks co.,Ltd</span>
             </div>
           </div>
           <div class="friend__column">
@@ -111,5 +108,10 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">
+        Plese make your screen small!
+      </span>
+    </div>
   </body>
 </html>

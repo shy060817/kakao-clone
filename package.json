@@ -1,0 +1,22 @@
+{
+  "name": "kakao-clone",
+  "version": "1.0.0",
+  "description": "kakao desktop app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shy060817/kakao-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shy060817/kakao-clone/issues"
+  },
+  "homepage": "https://github.com/shy060817/kakao-clone#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "reset.css": "^2.0.2"
+  }
+}
